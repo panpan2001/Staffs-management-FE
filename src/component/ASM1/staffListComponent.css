@@ -6,3 +6,7 @@
     text-align: center;
     background-color: rgb(197, 246, 246);
 }
+#card_image_list,#name_employee{
+    display: flex;
+    justify-content: center;
+}

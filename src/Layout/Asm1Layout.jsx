@@ -1,6 +1,7 @@
-import StaffDetailComponent from "../component/staffDetailComponent";
-import StaffListComponent from "../component/staffListComponent";
+import StaffDetailComponent from "../component/ASM1/staffDetailASM1Component";
+import StaffListComponent from "../component/ASM2/staffListComponent";
 import { Link,Outlet } from "react-router-dom";
+import StaffListASM1Component from "../component/ASM1/StaffListASM1Componenr";
 export default function Asm1Layout() {
     return (
         <>
@@ -11,11 +12,12 @@ export default function Asm1Layout() {
             </header>
             <main className="main has-background-color-info">
                 <p className="ml-6 mr-6 mt-3"><strong className="is-size-5 has-text-info"> List Emloyees</strong> </p>
-                <StaffListComponent />
+                <StaffListASM1Component />
                 <p className="ml-6 mr-6 mt-3"><strong className="is-size-5 has-text-info"> Detail Emloyee</strong> </p>
-                <div className="columns ml-6 mr-6 mt-3 is-multiline ">
-                   <Outlet/>
-                </div>
+                <div className="columns ml-6 mr-6 mt-3 is-centered">
+                        <Outlet/>
+
+                    </div>
 
             </main>
             
