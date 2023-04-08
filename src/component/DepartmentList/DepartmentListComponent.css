@@ -1,0 +1,5 @@
+.department_component{ 
+    min-height: 75vh;
+    box-sizing: border-box;
+    /* flex-grow: 0; */
+}

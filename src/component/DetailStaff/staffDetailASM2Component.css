@@ -1,0 +1,11 @@
+
+.card {
+    background-color: rgb(117, 230, 117);
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+ }
+ 
+ .card-content{
+    display: flex;
+    justify-content: center;
+ }

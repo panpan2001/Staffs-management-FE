@@ -7,4 +7,14 @@ nav{
   margin-left: 4em;
   margin-right: 4em
 }
-
+.App{
+  box-sizing: border-box;
+  /* min-height: 100vh ; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+/* *{
+  outline: 1px solid green;
+} */
